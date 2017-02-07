@@ -14,9 +14,14 @@
 int main(int argc, char *argv[]) {
   SIZE(char);
   SIZE(int);
+  SIZE(long);
+  SIZE(long long);
   SIZE(off_t);
   SIZE(size_t);
   SIZE(time_t);
+  SIZE(unsigned int);
+  SIZE(unsigned long);
+  SIZE(unsigned long long);
 
   SIZE_STRUCT_MEM(timeval, tv_sec);
   SIZE_STRUCT_MEM(timeval, tv_usec);
