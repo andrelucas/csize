@@ -1,4 +1,5 @@
 #include <inttypes.h>
+#include <pthread.h>
 #include <stdio.h>
 #include <sys/time.h>
 #include <sys/types.h>
@@ -17,8 +18,11 @@ int main(int argc, char *argv[]) {
   SIZE(long);
   SIZE(long long);
   SIZE(off_t);
+  SIZE(pid_t);
+  SIZE(pthread_t);
   SIZE(size_t);
   SIZE(time_t);
+  SIZE(unsigned char);
   SIZE(unsigned int);
   SIZE(unsigned long);
   SIZE(unsigned long long);
