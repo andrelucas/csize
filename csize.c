@@ -1,5 +1,6 @@
 #include <inttypes.h>
 #include <pthread.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <sys/time.h>
 #include <sys/types.h>
@@ -14,6 +15,7 @@
 
 int main(int argc, char *argv[]) {
   SIZE(char);
+  SIZE(bool);
   SIZE(int);
   SIZE(long);
   SIZE(long long);
