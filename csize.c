@@ -39,8 +39,8 @@ int main(int argc, char *argv[]) {
   char c_plus_one = c + 1;
 
   if (c_plus_one < 0) {
-    printf("(signed) char c = 127 + 1 = %d\n", c_plus_one);
+    printf("(signed) char c_plus_one = 127 + 1 = %d\n", c_plus_one);
   } else {
-    printf("(unsigned) char c = 127 + 1 = %d\n", c_plus_one);
+    printf("(unsigned) char c_plus_one = 127 + 1 = %d\n", c_plus_one);
   }
 }
