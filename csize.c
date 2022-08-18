@@ -33,4 +33,14 @@ int main(int argc, char *argv[]) {
   SIZE_STRUCT_MEM(timeval, tv_usec);
   SIZE_STRUCT_MEM(timespec, tv_sec);
   SIZE_STRUCT_MEM(timespec, tv_nsec);
+
+  // Char signedness.
+  char c = 127;
+  char c_plus_one = c + 1;
+
+  if (c_plus_one < 0) {
+    printf("(signed) char c = 127 + 1 = %d\n", c_plus_one);
+  } else {
+    printf("(unsigned) char c = 127 + 1 = %d\n", c_plus_one);
+  }
 }
