@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
   SIZE(pid_t);
   SIZE(pthread_t);
   SIZE(size_t);
+  SIZE(ssize_t);
   SIZE(time_t);
   SIZE(unsigned char);
   SIZE(unsigned int);
